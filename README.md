@@ -37,6 +37,7 @@ customer-shopping-behavior-project/
 ├── load_to_sql.py                            # Loads cleaned data into a SQL database
 ├── customer_behavior_sql_queries.sql         # Analysis queries
 ├── customer_behavior_dashboard.pbix          # Power BI dashboard
+├── dashboard.png                             # Dashboard preview image
 ├── Customer_Shopping_Behavior_Analysis_Report.docx # Written report with SQL screenshots
 ├── requirements.txt                          # Python dependencies
 ├── .env.example                              # Template for DB credentials
@@ -87,6 +88,12 @@ customer-shopping-behavior-project/
 - Engineered `age_group` (quartile-based buckets)
 - Engineered `purchase_frequency_days` from purchase frequency labels
 - Dropped `promo_code_used` (redundant with `discount_applied`)
+
+## 📈 Dashboard
+
+![Customer behavior dashboard](dashboard.png)
+
+The interactive version is in `customer_behavior_dashboard.pbix`. Open it in Power BI Desktop to use the Subscription Status, Gender, Category and Shipping Type filters.
 
 ## 📊 Key Findings
 
